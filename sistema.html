@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema</title>
 </head>
 <body>
-    <p>Sistema</p>
+    <h1>Sistema</h1>
+    <form>
+        <div>
+            <div>
+                <label for="title">Título:</label>
+                <input type="text" id="title">
+            </div>
+            <label for="medico_select">Médico:</label>
+            <select id="medico_select" name="medico">
+                <option value="André">André</option>
+                <option value="Nicolas">Nicolas</option>
+            </select>
+         </div>
+         <div>
+            <label for="time">Horário:</label>
+            <input type="time" id="time">
+        </div>
+        <div>
+            <label for="action">Ação/Serviço:</label>
+            <input type="text" id="action" name="action">
+        </div>
+        <div>
+            <button id="button" onclick="enviar()">Enviar</button>
+        </div>
+    </form>
+    <div>
+        <button id="button" onclick="reset()">Resetar dados</button>
+    </div>
+    <a href="index.html">Voltar</a>
+    <script src="./src/js/sistema.js"></script>
 </body>
 </html>
