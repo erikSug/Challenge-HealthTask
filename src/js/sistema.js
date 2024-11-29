@@ -15,7 +15,7 @@ function enviar() {
     if (localUser) {
         localUser = JSON.parse(localUser); 
     } else {
-        localUser = [];  
+        localUser = [];
     }
 
 
