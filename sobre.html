@@ -10,41 +10,61 @@
     <header>
         <div class="logo">Hospital Sabará</div>
         <nav>
-            <a href="medico.html">Tarefas</a>
-            <a href="#">Sobre</a>
-            <a href="index.html">Sair</a>
+            <a href="#" id="voltar">Voltar</a>
+            <a href="#problema">Problema</a>
+            <a href="#identificacao"">Identificação</a>
+            <a href="#analise">Análise</a>
+            <a href="#solucao">Solução</a>
+            <a href="#funcionalidades">Funcionalidades</a>
+            <a href="#restricao">Restrição</a>
         </nav>
     </header>
 
     <h1>Sobre</h1>
-
-    <section>
+    <div class="info">
+    <section id="problema">
         <h2>O problema</h2>
         <p>Com base nas nossas pesquisas e conversas com o hospital, nosso grupo percebeu que havia diversos problemas em diversas áreas.</p>
     </section>
-    <section>
+    <section id="identificacao">
         <h2>Identificação do problema </h2>
         <p>Identificamos que havia diversas reclamações por parte dos funcionários do hospital. Muitos médicos relatam uma sobrecarga
             de trabalho devido à insuficiência de profissionais na equipe. Do lado dos pacientes, também há um volume significativo de queixas,
             que incluem demora na realização de exames, falta de atendimento adequado e até erros médicos, problemas que têm se tornado recorrentes.
         </p>
     </section>
-    <section>
+    <section id="analise"> 
         <h2>Análise do problema</h2>
         <p>Durante nosso estudo sobre os problemas, identificamos um ponto em comum: o estresse, a falta de organização e os atrasos. Esses fatores têm um
             impacto negativo no ambiente de trabalho, gerando insatisfação e dificultando a rotina dos colaboradores.
         </p>
     </section>
-    <section>
+    <section id="solucao">
         <h2>Solução do problema</h2>
-        <p>Durante nosso estudo sobre os problemas, identificamos um ponto em comum: o estresse, a falta de organização e os atrasos. Esses fatores têm um
-            impacto negativo no ambiente de trabalho, gerando insatisfação e dificultando a rotina dos colaboradores.
+        <p>Nossa solução proposta é um aplicativo sobre sistema de informações do hospital Sabará que conecta a central à todos os médicos, organizando e exportando informações como horários, tipos de tarefas e informações do paciente para o médico designado.
+            Nosso projeto tem a finalidade de melhorar a organização e otimizar as tarefas que podem ser acumuladas aos médicos, amenizando a sua sobrecarga e erros de informação.
         </p>
     </section>
+    <section id="funcionalidades">
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Contém login com email e senha baseado em um banco de dados.</li>
+            <li>É separado na aba de médicos e de sistema.</li>
+            <li>Na aba de sistema, é possivel mandar informações especificas, como horário e ação, para o médico escolhido.</li>
+            <li>Na aba de usuários, é possivel ver as tarefas feitas no sistema e finalizar elas através de um botão.</li>
+            <li>As tarefas são separadas para cada usuário.</li>
+        </ul>
+    </section>
+    <section id="restricao">
+        <h2>Restrições</h2>
+        <p>Este projeto é apenas uma simulação, pois não há sistemas para encriptografar dados como senha e usuário devido as restrições de frameworks.
+        </p>
+    </section>
+</div>
     <footer>
         <p>&copy; Projeto de gestão de tarefas | Todos os direitos reservados</p>
     </footer>
 
-    <script src="./src/js/medico.js"></script>
+    <script src="./src/js/sobre.js"></script>
 </body>
 </html>
