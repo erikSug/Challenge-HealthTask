@@ -13,7 +13,7 @@ function create(n){
     let new_div = document.createElement("div");
     new_div.classList.add("tarefas") // Utilizar a classe "tarefas" para o css
     new_div.id = n.toString()
-    let title_p = document.createElement("h3");
+    let title_p = document.createElement("h2");
     let action_p = document.createElement("p");
     action_p.id = "action"
     let time_p = document.createElement("p");
