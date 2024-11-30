@@ -9,7 +9,7 @@ function enviar() {
         return ;
     }
 
-
+    alert(`Tarefa enviada para médico/médica ${medic}!`);
     let localUser = localStorage.getItem(medic);
 
     if (localUser) {
@@ -28,8 +28,9 @@ function enviar() {
 
     localUser.push(newInfo);
 
-
+    
     localStorage.setItem(medic, JSON.stringify(localUser));
+    
 }
 
 function reset(){
