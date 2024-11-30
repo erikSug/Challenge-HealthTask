@@ -6,6 +6,7 @@ function enviar() {
     
     if (!title || !medic || !time || !action){
         alert("Preencha todos os campos!");
+        event.preventDefault();
         return ;
     }
 

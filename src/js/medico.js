@@ -30,8 +30,8 @@ function create(n){
     delete_button.textContent = "Finalizar Tarefa"
 
     new_div.appendChild(title_p);
-    new_div.appendChild(action_p);
     new_div.appendChild(time_p);
+    new_div.appendChild(action_p);
     new_div.appendChild(delete_button);
     container.appendChild(new_div);
 }
