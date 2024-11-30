@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fundo azul claro */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    color: #0056a3; /* Azul hospital Sabará */
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+/* Formulário */
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 1.5rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0056a3;
+}
+
+form input, 
+form select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0056a3;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004080;
+}
+
+/* Botão de reset */
+div > button {
+    width: 200px;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    background-color: #ff6b6b; /* Vermelho claro */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div > button:hover {
+    background-color: #e63d3d;
+}
+
+/* Link de voltar */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: #0056a3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
