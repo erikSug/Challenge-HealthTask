@@ -1,8 +1,12 @@
 /* Geral */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+
     background-color: #f0f8ff; /* Azul claro hospitalar */
 }
 
@@ -59,14 +63,14 @@ form label {
 
 form input {
     width: 100%;
-    padding: 0.75rem;
+    height: 2rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
 }
 
 form button {
-    width: 100%;
+    width: 102%;
     padding: 0.75rem;
     background-color: #0056a3;
     color: white;
@@ -79,4 +83,10 @@ form button {
 
 form button:hover {
     background-color: #004080;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    margin: 10rem;
 }

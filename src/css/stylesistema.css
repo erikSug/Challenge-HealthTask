@@ -1,8 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f0f8ff; /* Fundo azul claro */
     color: #333; /* Cor do texto principal */
 }
@@ -91,4 +94,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+footer {
+    color: black;
+    text-align: center;
+    margin: 10rem;
 }
