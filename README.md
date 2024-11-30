@@ -17,3 +17,5 @@ Para médico André: Usuário: medico1@gmail.com
 
 Para médico Nicolas: Usuário: medico2@gmail.com
                      Senha: medico321
+
+Para a parte de front-end, vá para a página "Sobre"
