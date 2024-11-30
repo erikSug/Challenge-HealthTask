@@ -1,4 +1,5 @@
 let user_name = sessionStorage.getItem("user");
+document.getElementById("nome").innerText = `Seja bem vindo! ${user_name}`
 let user_action_raw = localStorage.getItem(user_name);
 
 let user_action = JSON.parse(user_action_raw);
